@@ -18,4 +18,15 @@
   <build>
     <finalName>simplewebapp</finalName>
   </build>
+  <distributionManagement>
+         <repository>
+           <id>deployment</id>
+           <name>Releases</name>
+           <url>https://13.59.93.15:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+           <id>deployment</id>
+           <name>snapshots</name>
+           <url>https://13.59.93.15:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
 </project>
