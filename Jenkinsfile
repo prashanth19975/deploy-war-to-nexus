@@ -11,7 +11,7 @@ pipeline {
 			    sh 'mvn --version'
 				}
 				}
-	    stage('maven clean') {
+	        stage('maven clean') {
             steps {	 
 			    sh 'mvn clean'
 				}
